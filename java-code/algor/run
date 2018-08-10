@@ -1,0 +1,4 @@
+javac Recursion.java
+pause
+java  Recursion
+pause

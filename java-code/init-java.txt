@@ -1,0 +1,22 @@
+How do I write a simple "Hello World" program?
+
+To write a "Hello World" program follow these steps:
+
+    Start Eclipse.
+    Create a new Java Project:
+        File->New->Project.
+        Select "Java" in the category list.
+        Select "Java Project" in the project list. Click "Next".
+        Enter a project name into the Project name field, for example, "Hello World Project".
+        Click "Finish"--It will ask you if you want the Java perspective to open. (You do.) 
+    Create a new Java class:
+        Click the "Create a Java Class" button in the toolbar. (This is the icon below "Run" and "Window" with a tooltip that says "New Java Class.")
+        Enter "HelloWorld" into the Name field.
+        Click the checkbox indicating that you would like Eclipse to create a "public static void main(String[] args)" method.
+        Click "Finish". 
+    A Java editor for HelloWorld.java will open. In the main method enter the following line.
+         System.out.println("Hello World");
+    Save using ctrl-s. This automatically compiles HelloWorld.java.
+    Click the "Run" button in the toolbar (looks like a little man running).
+    You will be prompted to create a Launch configuration. Select "Java Application" and click "New".
+    Click "Run" to run the Hello World program. The console will open and display "Hello World".

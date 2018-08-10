@@ -1,0 +1,15 @@
+ 
+
+Adding external Jar is not smart in case you want to change the project location in filesystem.
+
+The best way is to add the jar to build path so your project will compile if exported:
+
+    Create a folder called lib in your project folder.
+
+    copy to this folder all the jar files you need.
+
+    Refresh your project in eclipse.
+
+    Select all the jar files, then right click on one of them and select Build Path -> Add to Build Path
+
+ 

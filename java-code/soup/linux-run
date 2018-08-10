@@ -1,0 +1,10 @@
+echo '1'
+javac -cp ./jsoup-1.10.2.jar   Wikis.java
+echo '2'
+read -n1 -r -p "Press any key to continue..." key
+ 
+java   -cp .:./jsoup-1.10.2.jar  Wikis >out.txt 
+read -n1 -r -p "End of program.  Press any key to continue..." key
+
+
+  

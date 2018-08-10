@@ -1,0 +1,31 @@
+abstract class Animal {
+  private String name;
+ public void eat();
+ public void sleep();
+ }
+ 
+ public interface Pet {
+    public void play();
+  }
+ 
+ 
+ public class Dog extends Animal implements Pet {
+		public void eat() {
+			// do stuff
+		}
+		public void sleep() {
+				// do stuff
+		}
+		public void play() {
+					// do stuff
+		}
+ }
+ 
+ 
+ public class Hippo extends Animal {
+   public void eat() {
+ // do stuff
+  }
+  
+  
+You can   implement multiple interfaces, but can only inherit from one class (extend).  
